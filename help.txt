@@ -1,0 +1,12 @@
+to compile and run:
+	
+	c++ -g taskOne.cc
+	a.out
+	
+to use GDB:
+	
+	gdb a.out
+	run
+	break 27 (or 40)	//to insert a breakpoint
+	info breakpoint		//to get info on the breakpoint
+	x/ub addr		//to get the size in bytes of the address
